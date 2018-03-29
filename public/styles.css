@@ -1,19 +1,32 @@
-#container{
+#container {
   display: flex;
   flex-direction: column;
 }
-#middle{
+
+#middle {
   margin-top: 40px;
-  display:flex;
+  display: flex;
 }
-#overview-wrapper{
+
+#middle-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#overview-wrapper {
   margin: 0 40px;
 }
-#sidebar-app{
+
+#reviews-app {
+  margin: 40px 40px 0 40px;
+}
+
+#sidebar-app {
   margin-right: 40px;
   z-index: 1;
 }
-#recommendations-app{
+
+#recommendations-app {
   margin-top: 40px;
   z-index: 2;
 }
